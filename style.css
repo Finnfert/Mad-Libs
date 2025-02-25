@@ -1,0 +1,43 @@
+html {
+  background: url(istockphoto-508156356-612x612.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.815);
+  width: 500px;
+  padding: 50px 100px;
+  margin: 25px auto;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 42px;
+  font-variant: small-caps;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: midnightblue;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background: skyblue;
+  padding: 5px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#result {
+  border: 1px solid orange;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
