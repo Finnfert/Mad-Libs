@@ -11,6 +11,14 @@ body {
   border-radius: 25px;
 }
 
+#button2 {
+  margin-left: 25px;
+}
+
+ol {
+  margin-left: 75px;
+}
+
 h1 {
   font-size: 42px;
   font-variant: small-caps;
@@ -40,4 +48,23 @@ button {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.5px;
+}
+
+#button1:hover {
+  background-color: rgb(163, 118, 255);
+}
+
+#button2:hover {
+  text-decoration: underline;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+input {
+  background-color: bisque;
+  border: rgb(255, 169, 56) 10 px;
+  border-radius: 5px;
+  text-align: center;
 }
